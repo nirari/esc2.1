@@ -1,0 +1,52 @@
+baseURL = "https://www.escapism.work/"
+languageCode = "ja-jp"
+title = "Escapism"
+theme = "rocinante"
+paginate = 3
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+  [markup.goldmark.renderer]
+    unsafe= true
+
+[params]
+  favicon = "/icons/favicon.ico"
+  mainSections = ["posts", "photos"]
+  email = "nirari@escapism.work"
+  about = """
+Chidori Ninokura's website
+
+![](/images/header.jpg)
+"""
+
+  [[params.links]]
+    [[params.links.link]]
+      name = "About"
+      href = "/about"
+    [[params.links.link]]
+      name = "Email"
+      href = "/contact"
+      smart_email_link = true
+
+  [[params.links]]
+    [[params.links.link]]
+      name = "Github"
+      href = "https://github.com/nirari"
+      new_tab = true
+    [[params.links.link]]
+      name = "Pixiv"
+      href = "https://www.pixiv.net/users/1413955"
+      new_tab = true
+    [[params.links.link]]
+      name = "Mastodon"
+      href = "https://nightly.fedibird.com/@nirari"
+      new_tab = true
+    [[params.links.link]]
+      name = "Lemmy"
+      href = "https://tabinezumi.net/"
+      new_tab = true
+    [[params.links.link]]
+      name = "Pixelfed"
+      href = "https://pixelfed.tokyo/nirari"
+      new_tab = true
