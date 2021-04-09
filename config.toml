@@ -16,8 +16,6 @@ paginate = 3
   email = "nirari@escapism.work"
   about = """
 Chidori Ninokura's website
-
-![](/images/header.jpg)
 """
 
   [[params.links]]
